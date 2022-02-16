@@ -25,8 +25,11 @@ And finally, maintaining your version number`:
 
 Happy Pawning!
 -->
-## คุณต้องมี SAMPCTL
+# ของฟรีห้ามนำไปขายเด็ดขาด!
+
+## คุณต้องมี SAMPCTL & XAMPP
 ### https://github.com/Southclaws/sampctl/wiki
+### https://www.apachefriends.org/download.html
 
 ## ติดตั้ง
 
