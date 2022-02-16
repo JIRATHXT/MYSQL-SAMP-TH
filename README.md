@@ -25,7 +25,7 @@ And finally, maintaining your version number`:
 
 Happy Pawning!
 -->
-# ของฟรีห้ามนำไปขายเด็ดขาด!
+# !!! ของฟรีห้ามนำไปขายเด็ดขาด !!!
 
 ## คุณต้องมี SAMPCTL & XAMPP
 ### https://github.com/Southclaws/sampctl/wiki
@@ -33,7 +33,7 @@ Happy Pawning!
 
 ## ติดตั้ง
 
-ติดตั้งฐานข้อมูล:
+ติดตั้งฐานข้อมูล :
 
 1. เข้า XAMPP
 2. เปิด Apache & MYSQL
@@ -54,10 +54,6 @@ git clone https://github.com/JIRATHXT/MYSQL-SAMP-TH && cd MYSQL-SAMP-TH
 sampctl p ensure
 ```
 
-```bash
-sampctl p build
-```
-
 <!--
 Write your code documentation or examples here. If your library is documented in
 the source code, direct users there. If not, list your API and describe it well
@@ -72,31 +68,31 @@ Depending on whether your package is tested via in-game "demo tests" or
 y_testing unit-tests, you should indicate to readers what to expect below here.
 -->
 
-ติดตั้งแพ็คเกจเพิ่ม:
+ติดตั้งแพ็คเกจ :
 
 ```bash
 sampctl p install < ลิงก์ Project Github >
 ```
 
-ลบแพ็คเกจ:
+ลบแพ็คเกจ :
 
 ```bash
 sampctl p uninstall < ลิงก์ Project Github >
 ```
 
-คอมไพ เป็น AMX
+คอมไพสคริปต์ :
 
 ```bash
 sampctl p build
 ```
 
-เช็คหรืออัพเดตแพ็คเก็จ:
+เช็คหรืออัพเดตแพ็คเก็จ :
 
 ```bash
 sampctl p ensure
 ```
 
-รันโปรเจค:
+เปิดเซิร์ฟ :
 
 ```bash
 sampctl p run
