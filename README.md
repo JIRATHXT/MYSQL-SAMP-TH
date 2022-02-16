@@ -25,15 +25,19 @@ And finally, maintaining your version number`:
 
 Happy Pawning!
 -->
+### คุณต้องมี SAMPCTL
+# https://github.com/Southclaws/sampctl/wiki
 
 ## ติดตั้ง
 
 คำสั่งติดตั้งโปรเจค:
 
 ```bash
-sampctl package install JIRATHXT/MYSQL-SAMP-TH
+git clone https://github.com/JIRATHXT/MYSQL-SAMP-TH
 ```
-
+```bash
+cd MYSQL-SAMP-TH
+```
 
 <!--
 Write your code documentation or examples here. If your library is documented in
