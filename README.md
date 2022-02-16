@@ -33,13 +33,29 @@ Happy Pawning!
 
 ## ติดตั้ง
 
+ติดตั้งฐานข้อมูล:
+
+1. เข้า XAMPP
+2. เปิด Apache & MYSQL
+3. ไปที่ 127.0.0.1/phpmyadmin
+4. กด New & ตั้งชื่อว่า samp
+5. กดแถบ SQL
+6. คัดลอกด้านล่างไปใส่ และกด Go
+```SQL
+CREATE TABLE IF NOT EXISTS `players` (`id` int(11) NOT NULL AUTO_INCREMENT,`username` varchar(24) NOT NULL,`x` float NOT NULL DEFAULT '0',`y` float NOT NULL DEFAULT '0',`z` float NOT NULL DEFAULT '0',`angle` float NOT NULL DEFAULT '0',`interior` tinyint(3) NOT NULL DEFAULT '0', PRIMARY KEY (`id`), UNIQUE KEY `username` (`username`))
+```
+
 คำสั่งติดตั้งโปรเจค:
 
 ```bash
-git clone https://github.com/JIRATHXT/MYSQL-SAMP-TH
+git clone https://github.com/JIRATHXT/MYSQL-SAMP-TH && cd MYSQL-SAMP-TH
 ```
 ```bash
-cd MYSQL-SAMP-TH
+sampctl p ensure
+```
+
+```bash
+sampctl p build
 ```
 
 <!--
