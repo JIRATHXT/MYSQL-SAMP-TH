@@ -25,8 +25,8 @@ And finally, maintaining your version number`:
 
 Happy Pawning!
 -->
-### คุณต้องมี SAMPCTL
-# https://github.com/Southclaws/sampctl/wiki
+## คุณต้องมี SAMPCTL
+### https://github.com/Southclaws/sampctl/wiki
 
 ## ติดตั้ง
 
