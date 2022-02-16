@@ -52,13 +52,13 @@ y_testing unit-tests, you should indicate to readers what to expect below here.
 ติดตั้งแพ็คเกจเพิ่ม:
 
 ```bash
-sampctl p install <ลิงก์ Project Github>
+sampctl p install < ลิงก์ Project Github >
 ```
 
 ลบแพ็คเกจ:
 
 ```bash
-sampctl p uninstall <ลิงก์ Project Github>
+sampctl p uninstall < ลิงก์ Project Github >
 ```
 
 คอมไพ เป็น AMX
