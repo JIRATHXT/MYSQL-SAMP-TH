@@ -27,9 +27,14 @@ Happy Pawning!
 -->
 # !!! ของฟรีห้ามนำไปขายเด็ดขาด !!!
 
-## คุณต้องมี SAMPCTL & XAMPP
-### https://github.com/Southclaws/sampctl/wiki
-### https://www.apachefriends.org/download.html
+## คุณต้องมี SAMPCTL & XAMPP & VSCODE
+https://github.com/Southclaws/sampctl/wiki
+
+https://www.apachefriends.org/download.html
+
+https://code.visualstudio.com/
+
+# !!! ทุกไฟล์ต้อง Encoding Windows874 !!!
 
 ## ติดตั้ง
 
@@ -43,9 +48,14 @@ Happy Pawning!
 6. คัดลอกด้านล่างไปใส่ และกด Go
 ```SQL
 CREATE TABLE IF NOT EXISTS `players` (`id` int(11) NOT NULL AUTO_INCREMENT,`username` varchar(24) NOT NULL,`x` float NOT NULL DEFAULT '0',`y` float NOT NULL DEFAULT '0',`z` float NOT NULL DEFAULT '0',`angle` float NOT NULL DEFAULT '0',`interior` tinyint(3) NOT NULL DEFAULT '0', PRIMARY KEY (`id`), UNIQUE KEY `username` (`username`))
-```
+``` 
 
-คำสั่งติดตั้งโปรเจค:
+ติดตั้งโปรเจค:
+
+1. เข้า VSCODE
+2. Open Folder ไว้สักที่เช่น (Document/SAMP)
+3. กดแถบบนสุด Terminal/New Terminal
+4. ใช้คำสั่งด้านล่าง
 
 ```bash
 git clone https://github.com/JIRATHXT/MYSQL-SAMP-TH && cd MYSQL-SAMP-TH
