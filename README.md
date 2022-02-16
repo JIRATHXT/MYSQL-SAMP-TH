@@ -34,9 +34,12 @@ https://www.apachefriends.org/download.html
 
 https://code.visualstudio.com/
 
-# !!! ทุกไฟล์ต้อง Encoding Windows874 !!!
 
-## ติดตั้ง
+
+
+
+
+## วิธีติดตั้ง
 
 ติดตั้งฐานข้อมูล :
 
@@ -51,6 +54,8 @@ CREATE TABLE IF NOT EXISTS `players` (`id` int(11) NOT NULL AUTO_INCREMENT,`user
 ``` 
 
 ติดตั้งโปรเจค:
+
+# !!! ทุกไฟล์ต้อง Encoding Windows874 !!!
 
 1. เข้า VSCODE
 2. Open Folder ไว้สักที่เช่น (Document/SAMP)
@@ -70,6 +75,11 @@ the source code, direct users there. If not, list your API and describe it well
 in this section. If your library is passive and has no API, simply omit this
 section.
 -->
+
+
+
+
+
 
 ## คำสั่ง
 
