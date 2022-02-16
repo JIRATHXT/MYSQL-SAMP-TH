@@ -26,7 +26,7 @@ And finally, maintaining your version number`:
 Happy Pawning!
 -->
 
-## Installation
+## ติดตั้ง
 
 คำสั่งติดตั้งโปรเจค:
 
@@ -34,7 +34,6 @@ Happy Pawning!
 sampctl package install JIRATHXT/MYSQL-SAMP-TH
 ```
 
-## Usage
 
 <!--
 Write your code documentation or examples here. If your library is documented in
@@ -43,15 +42,39 @@ in this section. If your library is passive and has no API, simply omit this
 section.
 -->
 
-## Testing
+## คำสั่ง
 
 <!--
 Depending on whether your package is tested via in-game "demo tests" or
 y_testing unit-tests, you should indicate to readers what to expect below here.
 -->
 
-คำสั่งรันโปรเจค:
+ติดตั้งแพ็คเกจเพิ่ม:
 
 ```bash
-sampctl package run
+sampctl p install <ลิงก์ Project Github>
+```
+
+ลบแพ็คเกจ:
+
+```bash
+sampctl p uninstall <ลิงก์ Project Github>
+```
+
+คอมไพ เป็น AMX
+
+```bash
+sampctl p build
+```
+
+เช็คหรืออัพเดตแพ็คเก็จ:
+
+```bash
+sampctl p ensure
+```
+
+รันโปรเจค:
+
+```bash
+sampctl p run
 ```
