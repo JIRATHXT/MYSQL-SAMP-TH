@@ -28,16 +28,10 @@ Happy Pawning!
 
 ## Installation
 
-Simply install to your project:
+คำสั่งติดตั้งโปรเจค:
 
 ```bash
 sampctl package install JIRATHXT/MYSQL-SAMP-TH
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <MYSQL-SAMP-TH>
 ```
 
 ## Usage
@@ -56,7 +50,7 @@ Depending on whether your package is tested via in-game "demo tests" or
 y_testing unit-tests, you should indicate to readers what to expect below here.
 -->
 
-To test, simply run the package:
+คำสั่งรันโปรเจค:
 
 ```bash
 sampctl package run
