@@ -1,0 +1,15 @@
+{
+	"user": "JIRATHXT",
+	"repo": "MYSQL-SAMP-TH",
+	"tag": "0.0.1",
+	"entry": "main.pwn",
+	"output": "gamemodes/main.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib",
+		"Southclaws/samp-whirlpool",
+		"aktah/easyDialog",
+		"pawn-lang/YSI-Includes",
+		"pBlueG/SA-MP-MySQL"
+	],
+	"local": true
+}
